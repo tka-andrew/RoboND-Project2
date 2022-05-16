@@ -21,9 +21,10 @@ In this project, you should create two ROS packages inside your catkin_ws/src: t
 ## Usage
 1. Copy the ball_chaser and my_robot folders into your workspace
 2. `catkin_make` your workspace
-3. Launch the world and ball_chaser nodes
+3. Remember to source the setup.bash of your workspace
+4. Launch the world and ball_chaser nodes
     ```
     roslaunch my_robot world.launch
     roslaunch ball_chaser ball_chaser.launch
     ```
-4. On Gazebo simulator, put the white ball in front of the robot and observe.
+5. On Gazebo simulator, put the white ball in front of the robot and observe.
